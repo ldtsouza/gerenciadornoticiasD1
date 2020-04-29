@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+ <h1> Portal Real News - Editor de Notícias &#127760;</h1>
+ 
+ <p> <span style='font-size:50px;'> &#128105;</span> Aluna: Laudilene Souza - RA 819157991 </p>
+
+
+
+ <h3> Cadastrar Noticia</h3>
+ 
+
+   
+<form method="post"  action="CadastrarNoticia.do">
+
+   <p> 
+      Id: <input type="hidden" name="id_noticia" /> <br>
+      <br>
+      Descricao: <input type="text" name="descricao_noticia" /> <br>
+      <br>
+      Titulo:<input type="text" name="titulo_noticia" /> <br>
+      <br>
+      texto: <input type="text" name="texto_noticia" /> <br>
+      <br>
+      
+      <input type="submit"  value="Cadastrar"> 
+      <input type="reset"  value="Limpar">
+ </p>
+
+ </form>
+
+
+   
+<h3> Excluir Noticia </h3>
+  
+<form method="get"  action="ExcluirNoticia.do">
+      <p> 
+      Id <input type="number" name="id_noticia" /> <br>
+      <br>
+     
+         
+      <input type="submit"  value="Excluir"> 
+      <input type="reset"  value="Limpar">
+ </p>
+
+ </form>
+ 
+ 
+ 
+<h3> Alterar Noticia </h3>
+<form method="post"  action="AlterarNoticia.do">
+     
+       <p> 
+       
+      id: <input type="number" name="id_noticia" /> <br>
+      <br>
+      Descricao <input type="text" name="descricao_noticia" /> <br>
+      <br>
+      Titulo:<input type="text" name="titulo_noticia" /> <br>
+      <br>
+      texto: <input type="text" name="texto_noticia" /> <br>
+      <br>
+     
+     <input type="submit"  value="Alterar"> 
+     <input type="reset"  value="Limpar">
+
+      </p>
+   </form>
+   
+   
+</body>
+</html>
